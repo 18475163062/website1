@@ -12,40 +12,19 @@
     <link rel="stylesheet" href="css/Products.css">
     <link rel="stylesheet" href="css/Products-ipad.css">
     <!-- icon -->
-    <script src="http://at.alicdn.com/t/font_1504201_pmf2yf5oxzn.js"></script>
+    <script src="js/icon-pmf2yf5oxzn.js"></script>
     <!-- 引入Bootstrap核心样式文件 -->
-    <link href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="css/bootstrap-3.3.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css"> -->
     <!-- 引入jQuery核心js文件 -->
-    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/jquery.min.js"></script>
     <!-- 引入BootStrap核心js文件 -->
-    <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
-    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </head>
 <body class="navbar">
-<!-- ipad侧滑菜单 -->
-<div id="dakai" class="ipad-cehua">
-        <div class="ipad-cehua-1">
-            <div><a href="index.html">Home</a> </div>
-            <div><a href="Products.html">Products</a> </div>
-            <div><a href="Download.html">Download</a> </div>
-            <div><a href="About Us.html">About Us</a> </div>
-            <div><a href="Contact us.html">Contact Us</a> </div>
-            <div><a href="Alibaba website.html">Alibaba Website</a> </div>
-        </div>
-        <div class="ipad-cehua-2">
-            <div class="ipad-cehua-2-a">
-                <a  href="#" onclick="show2()">
-                    <svg class="icon1" aria-hidden="">
-                        <use xlink:href="#icon-guanbi"></use>
-                    </svg>
-                </a>
-            </div>
-            
-        </div>
-        
-    </div>
+
 
     <script>
         function show(){
@@ -237,7 +216,7 @@
                 </a>
             </div>
             <div class="doahanlan-4 doahanlan-xia">
-                <a href="About Us.html" class="doahanlan-top-a">
+                <a href="About-Us.html" class="doahanlan-top-a">
                     About Us
                     <a href="#" class="xiala">
                             <div >
@@ -249,7 +228,7 @@
                 </a>
             </div>
             <div class="doahanlan-5 doahanlan-xia">
-                <a href="Contact us.html" class="doahanlan-top-a">
+                <a href="Contact-us.html" class="doahanlan-top-a">
                     Contact Us
                     <a href="#" class="xiala">
                             <div >
@@ -261,7 +240,7 @@
                 </a>
             </div>
             <div class="doahanlan-6 doahanlan-xia">
-                <a href="Alibaba website.html" class="doahanlan-top-a">
+                <a href="Alibaba-website.html" class="doahanlan-top-a">
                     Alibaba Website
                        <a href="#" class="xiala">
                         <div >
@@ -621,6 +600,30 @@
             </div>
            
         </div>
+
+
+        <!-- ipad侧滑菜单 -->
+<div id="dakai" class="ipad-cehua">
+    <div class="ipad-cehua-1">
+        <div><a href="index.html">Home</a> </div>
+        <div><a href="Products.html">Products</a> </div>
+        <div><a href="Download.html">Download</a> </div>
+        <div><a href="About-Us.html">About Us</a> </div>
+        <div><a href="Contact-us.html">Contact Us</a> </div>
+        <div><a href="Alibaba-website.html">Alibaba Website</a> </div>
+    </div>
+    <div class="ipad-cehua-2">
+        <div class="ipad-cehua-2-a">
+            <a  href="#" onclick="show2()">
+                <svg class="icon1" aria-hidden="">
+                    <use xlink:href="#icon-guanbi"></use>
+                </svg>
+            </a>
+        </div>
+        
+    </div>
+    
+</div>
     <script>
         $(document).ready(function(){
             $('.doahanlan-xia').hover(function(){
