@@ -1,0 +1,410 @@
+/* */
+/* pc端*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body.navbar {
+    padding: 0px;
+    position: relative;
+    /* min-height: 50px; */
+    margin-bottom: 1px;
+    background-color: #F2F2F2;
+    border: 1px solid transparent;
+  
+  }
+ body{
+    
+    margin: 0px auto;
+    padding: 0px;
+}
+/* 图标 */
+.icon {
+    width: 1.2em; height: 1.2em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+ }
+ .icon1{
+    width: 2em; height: 2em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+ }
+ .icon2 {
+    width: 1em; height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+ }
+ .container:after{
+    content:"";
+    clear: both;
+    display:block; 
+}
+
+
+.list-l2{
+    /*padding-bottom:62.5%;*/
+    /*position: relative;*/
+    /*text-align: center;*/
+    width: 100%;	
+}
+.lll{
+    /* box-shadow:0px 3px 3px rgba(0,0,0,0.4); */
+    border: 1px solid rgb(34, 34, 34 ,.2);
+    margin-right:15px;
+    margin-left: 15px;
+}
+.list-l3:hover{
+    /* box-shadow:0px 7px 7px rgba(0,0,0,0.5);
+    margin-right:15px;
+    margin-left: 15px;
+     */
+}
+.list-l3{
+    /* box-shadow:0px 3px 3px rgba(0,0,0,0.4);
+    margin-right:15px;
+    margin-left: 15px; */
+    
+}
+.list-l4{
+    padding-bottom:62.5%;
+    position: relative;	
+}
+.list-l5{
+    margin-left:25px;
+    /*display:inline-block;*/
+    overflow: hidden;
+    margin:auto 0px auto 15px;
+    white-space: nowrap;
+
+                /*max-width: 100%;*/
+    /*max-height: 100%;*/
+    /*position: absolute;*/
+    /*line-height: 50px;*/
+}
+.tu{
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+@media screen and (min-width: 760px) and (max-width: 1100px) {
+    .list-l1{
+        float: left;
+        width: 25%;
+        margin-bottom: 15px;
+        /*background: pink;*/
+    }
+
+   
+   
+    /* 正文 */
+    #zhenwen{
+        /* position: relative; */
+        overflow:hidden;
+        margin: auto;
+        width: 1100px;
+        height: 600px;
+        background: #fff;
+        /* border: 1px solid #000; */
+        
+        box-shadow: 1px 1px 15px 1px rgb(70, 69, 69);
+        /* opacity: 0.2; */
+    }
+    .zhenwen1{
+        position: relative;
+        /* background: #59B210; */
+        width: 97%;
+        /* padding: 15px; */
+        height: 200px;
+        margin:15px auto;
+    }
+    .zhenwen-1{
+        display: none;
+        /* float: left; */
+        /* width: 25%; */
+        height: 100px;
+        /* background: yellow; */
+    }
+    .zhenwen-2{
+        /* position: absolute; */
+        /* right: 0px; */
+        /* float: left; */
+        width:100%;
+        height: 100px;
+        /* background: pink; */
+    }
+    .zhenwen-2-1{
+        height: 45px;
+        width: 100%;
+        border-bottom:1px solid rgb(34, 34, 34 ,.2) 
+
+    }
+    .zhenwen-2-2{
+        float: left;
+        font-weight: bold;
+        font-size: 16px;
+        height: 45px;
+        line-height: 45px;
+        width: 50%;
+        /* border-bottom:1px solid rgb(34, 34, 34 ,.2)  */
+
+    }
+    .zhenwen-2-3{
+        float: left;
+        text-align: right;
+        /* font-weight: bold; */
+        font-size: 14px;
+        height: 45px;
+        line-height: 45px;
+        width: 50%;
+        /* border-bottom:1px solid rgb(34, 34, 34 ,.2)  */
+
+    }
+    .zhenwen-2-3 a{
+        color:#333; 
+    }
+    .zhenwen-2-3 a:hover{
+        color:#333; 
+    }
+    .shouzhi{
+        cursor: pointer;
+    }
+   
+    .zhenwen-3{
+        background: #333333;
+        text-align: center;
+        height: 45px;
+        line-height: 45px;
+        width: 100%;
+        color: #fff;
+        font-size: 16px;
+    }
+    .zhenwen-3-1{
+        margin: 20px 0px;
+        font-size: 14px;
+    }
+    .zhenwen-3-1-span{
+        font-size: 16px;
+        color: #333;
+        font-weight: bold;
+    }
+    .zhenwen-4{
+        margin:5px 0px; 
+        background: #F5F5F5;
+        /* text-align: center; */
+        height: 40px;
+        line-height: 40px;
+        width: 100%;
+        color: #555572;
+        font-size: 16px;
+    }
+    .zhenwen-5{
+        margin:auto; 
+        /* background: red; */
+        /* text-align: center; */
+        /* height: 45px; */
+        /* line-height: 45px; */
+        width: 90%;
+        color: #555572;
+        font-size: 16px;
+    }
+    .zhenwen-6{
+        margin-top: 10px;
+        margin-right: 5px;
+        float: left;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        /* line-height: 20px; */
+        background: #555;
+    }
+    .zhenwen-6-span{
+        position: relative;
+        top: -11px;
+        left: 2px;
+    }
+    /* 脚部 */
+    #foot{
+        font-size: 14px;
+        margin-top: 10px;
+        height: 50px;
+        width: 100%;
+        background: #2D2D2F;
+    }
+    #foot-1{
+        
+        width: 1100px;
+        margin: auto;
+        height: 50px;
+        line-height: 50px;
+        color: #B7B7B7;
+    }
+    #foot-1 span{
+        margin-left: 30px;
+    }
+ }
+
+ @media screen and (min-width: 300px) and (max-width: 760px) {
+    .list-l1{
+        float: left;
+        width: 25%;
+        margin-bottom: 15px;
+        /*background: pink;*/
+    }
+
+   
+   
+    /* 正文 */
+    #zhenwen{
+        /* position: relative; */
+        overflow:hidden;
+        margin: auto;
+        width: 1100px;
+        height: 600px;
+        background: #fff;
+        /* border: 1px solid #000; */
+        
+        box-shadow: 1px 1px 15px 1px rgb(70, 69, 69);
+        /* opacity: 0.2; */
+    }
+    .zhenwen1{
+        position: relative;
+        /* background: #59B210; */
+        width: 97%;
+        /* padding: 15px; */
+        height: 200px;
+        margin:15px auto;
+    }
+    .zhenwen-1{
+        display: none;
+        /* float: left; */
+        /* width: 25%; */
+        height: 100px;
+        /* background: yellow; */
+    }
+    .zhenwen-2{
+        /* position: absolute; */
+        /* right: 0px; */
+        /* float: left; */
+        width:100%;
+        height: 100px;
+        /* background: pink; */
+    }
+    .zhenwen-2-1{
+        height: 45px;
+        width: 100%;
+        /* border-bottom:1px solid rgb(34, 34, 34 ,.2)  */
+
+    }
+    .zhenwen-2-2{
+        text-align: center;
+        float: left;
+        font-weight: bold;
+        font-size: 16px;
+        height: 45px;
+        line-height: 45px;
+        width: 100%;
+        /* border-bottom:1px solid rgb(34, 34, 34 ,.2)  */
+
+    }
+    .zhenwen-2-3{
+        display: none;
+        /* float: left; */
+        /* text-align: right; */
+        /* font-weight: bold; */
+        font-size: 14px;
+        height: 45px;
+        line-height: 45px;
+        width: 50%;
+        /* border-bottom:1px solid rgb(34, 34, 34 ,.2)  */
+
+    }
+    .zhenwen-2-3 a{
+        color:#333; 
+    }
+    .zhenwen-2-3 a:hover{
+        color:#333; 
+    }
+    .shouzhi{
+        cursor: pointer;
+    }
+   
+    .zhenwen-3{
+        background: #333333;
+        text-align: center;
+        height: 45px;
+        line-height: 45px;
+        width: 100%;
+        color: #fff;
+        font-size: 16px;
+    }
+    .zhenwen-3-1{
+        margin: 20px 0px;
+        font-size: 14px;
+    }
+    .zhenwen-3-1-span{
+        font-size: 16px;
+        color: #333;
+        font-weight: bold;
+    }
+    .zhenwen-4{
+        margin:5px 0px; 
+        background: #F5F5F5;
+        /* text-align: center; */
+        height: 40px;
+        line-height: 40px;
+        width: 100%;
+        color: #555572;
+        font-size: 16px;
+    }
+    .zhenwen-5{
+        margin:auto; 
+        /* background: red; */
+        /* text-align: center; */
+        /* height: 45px; */
+        /* line-height: 45px; */
+        width: 90%;
+        color: #555572;
+        font-size: 16px;
+    }
+    .zhenwen-6{
+        margin-top: 10px;
+        margin-right: 5px;
+        float: left;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        /* line-height: 20px; */
+        background: #555;
+    }
+    .zhenwen-6-span{
+        position: relative;
+        top: -11px;
+        left: 2px;
+    }
+    /* 脚部 */
+    #foot{
+        font-size: 14px;
+        margin-top: 10px;
+        height: 50px;
+        width: 100%;
+        background: #2D2D2F;
+    }
+    #foot-1{
+        
+        width: 1100px;
+        margin: auto;
+        height: 50px;
+        line-height: 50px;
+        color: #B7B7B7;
+    }
+    #foot-1 span{
+        margin-left: 30px;
+    }
+ }

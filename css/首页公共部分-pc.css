@@ -1,0 +1,469 @@
+/* */
+/* pc端*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body.navbar {
+    padding: 0px;
+    position: relative;
+    /* min-height: 50px; */
+    margin-bottom: 1px;
+    background-color: #F2F2F2;
+    border: 1px solid transparent;
+    overflow: scroll;    
+  }
+ body{
+    
+    margin: 0px auto;
+    padding: 0px;
+}
+/* 图标 */
+.icon {
+    width: 1.2em; height: 1.2em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+ }
+ .icon1{
+    width: 2em; height: 2em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+ }
+ .icon2 {
+    width: 1em; height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+ }
+ .container:after{
+    content:"";
+    clear: both;
+    display:block; 
+}
+
+
+.list-l2{
+    /*padding-bottom:62.5%;*/
+    /*position: relative;*/
+    /*text-align: center;*/
+    width: 100%;	
+}
+.lll{
+    /* box-shadow:0px 3px 3px rgba(0,0,0,0.4); */
+    border: 1px solid rgb(34, 34, 34 ,.2);
+    margin-right:15px;
+    margin-left: 15px;
+}
+.list-l3:hover{
+    /* box-shadow:0px 7px 7px rgba(0,0,0,0.5);
+    margin-right:15px;
+    margin-left: 15px;
+     */
+}
+.list-l3{
+    /* box-shadow:0px 3px 3px rgba(0,0,0,0.4);
+    margin-right:15px;
+    margin-left: 15px; */
+    
+}
+.list-l4{
+    padding-bottom:62.5%;
+    position: relative;	
+}
+.list-l5{
+    margin-left:25px;
+    /*display:inline-block;*/
+    overflow: hidden;
+    margin:auto 0px auto 15px;
+    white-space: nowrap;
+
+                /*max-width: 100%;*/
+    /*max-height: 100%;*/
+    /*position: absolute;*/
+    /*line-height: 50px;*/
+}
+.tu{
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.tuwen-2-span{
+    /* background: red; */
+    
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    /* width: 100px; */
+}
+.tuwen-2-span a{
+    /* width: 100px; */
+    font-size: 14px;
+    color: #333;
+    font-family: Arial;
+    font-weight: bold;
+    
+}
+.tuwen-2-span a:hover{
+    font-size: 14px;
+    color: #333;
+    font-family: Arial;
+    font-weight: bold;
+}
+.tuwen-2-span1{
+    
+    font-size: 12px;
+    color: #555;
+
+}
+.tuwen-2-span1-gai{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.tuwen-2-kuan{
+    /* background: #59B210; */
+    width: 100%;
+    /* height: 120px; */
+}
+.tuwen-2-button{
+    text-align: right;
+    /* background:red; */
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    
+}
+.tuwen-2-button-1{
+    text-align: center;
+    background:#2D2D2F;
+    width: 100px;
+    height: 35px;
+    border: 1px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.tuwen-2-button-1:hover{
+    text-align: center;
+    background: #59B210;
+    /* background:#2D2D2F; */
+    width: 100px;
+    height: 35px;
+    border: 1px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+}
+@media screen and (min-width: 1100px) {
+    .list-l1{
+        float: left;
+        width: 25%;
+        margin-bottom: 15px;
+        /*background: pink;*/
+    }
+
+    .conte{
+        margin: auto;
+        max-width: 1100px;
+        /* height: 300px; */
+        font-size: 16px;
+        /* background: #fff; */
+    }
+    .ipad-cehua{
+        display: none;
+    }
+    .ipad-top{
+        display: none;
+    }
+    #top{
+        height: 30px;
+        /* background-color: #59B411; */
+        margin-top: 10px;
+        padding-right: 10px;
+        text-align: right;
+        line-height: 30px;
+        font-family: Arial
+    }
+    #top li{
+        display: inline;
+        list-style-type: none;
+        /* height: 30px; */
+        color: #333;
+        /* background: yellow; */
+        }
+    #top li a{
+        text-decoration: none;
+        color: #333;
+    }
+    #top li a:hover{
+        text-decoration: underline;
+        color: #333;
+    }
+    /* #hx{
+        margin-top:8px; 
+        height: 1px; 
+        color:#fff; 
+        background-color: #fff; 
+        box-shadow: 2px 2px 2px 0 rgba(250, 249, 249, 0.08);
+        -moz-box-shadow: 2px 2px 2px 0 rgba(250, 249, 249, 0.08); 
+       // firefox
+        -webkit-box-shadow:2px 2px 2px 0 rgba(250, 249, 249, 0.08);
+        //webkit
+        opacity: 0.9;
+    } */
+    
+    
+    /* 上面的是头不和横线的样式 */
+    
+    
+    
+    #sousuo{
+        height: 103px;
+        /* background: #59B411; */
+        margin: 0px;
+        min-width: 1100px;
+        border-top: 2px solid #fff;
+    }
+    #sousuo-ico{
+        width: 30.3%;
+        /* background: #333; */
+        height: 103px;
+        float: left;
+    }
+    .sousuo-tu{
+        max-width: 100%;
+        max-height: 100%; 
+        /* border: 1px solid #000; */
+    }
+    #sousuo-ss{
+    
+        text-align: right;
+        width: 38.3%;
+        height: 103px;
+        line-height:auto;
+        /* background: yellowgreen; */
+        float: left;
+    }
+    #sousuo-dh{
+        text-align: right;
+        font-size: 14px;
+        width: 31.3%;
+        float: left;
+        height: 103px;
+        line-height: 103px;
+        /* background: #ccc; */
+    }
+    .sousuo-dh-dian{
+        width: 50%;
+        float: left;
+    }
+    .sousuo-dh-e{
+        width: 50%;
+        text-align: right;
+        /* margin-left:30px;  */
+        /* background: yellow; */
+        float: left;
+    }
+    .navbar-form .form-group{
+        position: relative;
+        top: 25px;
+        left: 80px;
+    }
+    .navbar-form .form-control{
+        display: none;
+        float: left;
+        min-width: 260px;
+        width: 250px;
+         /* position: relative;
+         top: 25px;  */
+         height: 35px;
+         font-size: 14px;
+         background: #F2F2F2;
+         /* outline:none; */
+    }
+  
+    /* input:focus{ outline: none;} */
+    .navbar-form .form-control:focus {
+        border: 1px solid #ccc;
+        box-shadow: none;
+    }
+    
+    .navbar-form .btn{
+        /* position: relative;
+        top: 25px; */
+        height: 35px;
+        width: 50px;
+    }
+    
+    .navbar-form .btn-default{
+        background: #59B411;
+    }
+    .navbar-form .btn-default:hover{
+        color: #333;
+        background-color: #59B411;
+        border-color: #ccc;
+    }
+    /* .navbar-form .btn:focus{
+        color: #333;
+        background-color: #59B411;
+        border-color: #ccc;
+    } */
+    .navbar-form .btn-default:focus{
+        color: #333;
+        background-color: #59B411;
+        border-color: #ccc;
+    }
+    
+    
+    /* 搜索上面样式 */
+    
+    
+    #doahanlan{
+        /* position: absolute; */
+        z-index: 2;
+        width: 100%;
+        height: 50px;
+        background: url(../img/nav_bg.jpg) top center no-repeat;
+    }
+    .doahanlan-top{
+        margin: auto;
+        height: 50px;
+        max-width: 1100px;
+        /* height: 300px; */
+        font-size: 16px;
+        color: #fff;
+        
+    }
+    .doahanlan-1{
+        width: 100px;
+        /* height: 50px; */
+        text-align: center;
+       
+        /* height: 50px; */
+        line-height: 50px;
+        /* position: relative;
+        top: -2px; */
+        float: left;
+        /* background: yellow; */
+    }
+    .doahanlan-2{
+        width: 110px;
+        text-align: center;
+        /* height: 50px; */
+        line-height: 50px;
+        /* background: #59B411; */
+        /* position: relative;
+        top: -2px; */
+        float: left;
+    }
+    .doahanlan-3{
+         width: 120px;
+        text-align: center;
+        /* height: 50px; */
+        line-height: 50px;
+        float: left;
+        /* position: relative;
+        top: -2px; */
+        background: #272727;
+    }
+    .doahanlan-4{
+        text-align: center;
+        width: 130px;
+        /* height: 50px; */
+        line-height: 50px;
+        /* position: relative;
+        top: -2px; */
+        float: left;
+        background: #363636;
+    }
+    .doahanlan-5{
+        width: 140px;
+        text-align: center;
+        /* height: 50px; */
+        line-height: 50px;
+        /* position: relative;
+        top: -2px; */
+        float: left;
+        background: #444444;
+    }
+    .doahanlan-6{
+        width: 150px;
+        text-align: center;
+        /* height: 50px; */
+        line-height: 50px;
+        float: left;
+        /* position: relative;
+        top: -2px; */
+        background: #616161;
+    }
+    .doahanlan-xia{
+        height: 50px;
+        font-size: 16px;
+        color: #fff;
+        text-decoration: none;
+    }
+    .doahanlan-xia:hover{
+        display: block;
+        height: 50px;
+        font-size: 16px;
+        color: #fff;
+        background: #59B210;
+    }
+    .doahanlan-top-a{
+        height: 50px;
+        font-size: 16px;
+        color: #fff;
+        text-decoration: none;
+    }
+    .doahanlan-top-a:hover{
+        display: block;
+        height: 50px;
+        font-size: 16px;
+        color: #fff;
+        background: #59B210;
+    }
+    .xiala{
+        text-align: left;
+        color: rgb(49, 49, 49);
+        /* display: block; */
+        display: none;
+        background: #fff;
+        width: 220px;
+        margin: 0px; 
+        border-top:2px solid #eee;
+        border-left: 2px solid #eee;
+        /* /* border-right: 2pc solid #eee; */
+    }
+    .xiala:hover{
+        color: rgb(49, 49, 49);
+        /* border: 1px solid rgb(49, 49, 49); */
+    }
+    /* 上面的是导航栏 */
+   
+    
+    /* 脚部 */
+    #foot{
+        font-size: 14px;
+        margin-top: 10px;
+        height: 50px;
+        width: 100%;
+        background: #2D2D2F;
+    }
+    #foot-1{
+        
+        width: 1100px;
+        margin: auto;
+        height: 50px;
+        line-height: 50px;
+        color: #B7B7B7;
+    }
+    #foot-1 span{
+        margin-left: 30px;
+    }
+ }

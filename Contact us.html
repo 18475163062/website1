@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>首页公共部分</title>
+    <!-- icon -->
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1504201_gl01j6mvg7.css">
+    <link rel="stylesheet" href="css/首页公共部分-pc.css">
+    <link rel="stylesheet" href="css/首页公共部分-ipa.css">
+    <link rel="stylesheet" href="css/Contact us.css">
+    <link rel="stylesheet" href="css/Contact us-ipad.css">
+    <!-- icon -->
+    <script src="http://at.alicdn.com/t/font_1504201_pmf2yf5oxzn.js"></script>
+    <!-- 引入Bootstrap核心样式文件 -->
+    <link href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css"> -->
+    <!-- 引入jQuery核心js文件 -->
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- 引入BootStrap核心js文件 -->
+    <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body class="navbar">
+<!-- ipad侧滑菜单 -->
+<div id="dakai" class="ipad-cehua">
+        <div class="ipad-cehua-1">
+            <div><a href="index.html">Home</a> </div>
+            <div><a href="Products.html">Products</a> </div>
+            <div><a href="Download.html">Download</a> </div>
+            <div><a href="About Us.html">About Us</a> </div>
+            <div><a href="Contact us.html">Contact Us</a> </div>
+            <div><a href="Alibaba website.html">Alibaba Website</a> </div>
+        </div>
+        <div class="ipad-cehua-2">
+            <div class="ipad-cehua-2-a">
+                <a  href="#" onclick="show2()">
+                    <svg class="icon1" aria-hidden="">
+                        <use xlink:href="#icon-guanbi"></use>
+                    </svg>
+                </a>
+            </div>
+            
+        </div>
+        
+    </div>
+
+    <script>
+        function show(){
+            document.getElementById("dakai").style.display="block";
+        };
+        function show2(){
+            document.getElementById("dakai").style.display="none";
+        };
+    </script>
+
+    <!-- ipad头部 -->
+    <div class="ipad-top">
+        <div class="ipad-top1">
+            <div class="ipad-top-tu">
+                <img class="ipad-top-tu1" src="img/30d95ac589.png" alt="">
+            </div>
+            
+        </div>
+        <div class="ipad-top-tu2">
+            <div class="ipad-top-tu2-1">
+                <div class="ipad-top-tu2-gong">
+                    <a href="#" onclick="show()"><svg class="icon1" aria-hidden="true"><use xlink:href="#icon-gouwuche"></use></svg></a>
+                </div> 
+                <div class="ipad-top-tu2-gong"><a href="#"><svg class="icon1" aria-hidden="true"><use xlink:href="#icon-gengduo"></use></svg></a></div>
+                <div class="ipad-top-tu2-gong"><a href="#"><svg class="icon1" aria-hidden="true"><use xlink:href="#icon-ren"></use></svg></a></div>
+                <div class="ipad-top-tu2-gong"><a href="#"><svg class="icon1" aria-hidden="true"><use xlink:href="#icon-sousuo"></use></svg></a></div>
+            </div>
+            <div></div>
+
+        </div>
+    </div>
+    <div class="conte" >
+
+        <!-- 头部 -->
+        <div id="top">
+            <ul>
+                <li class="">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-xingzhuangx"></use>
+                    </svg>
+                    <a href="#">Sign In</a>  or <a href="#">Sign Up</a>
+                </li>
+                <li>|</li>
+                <li>
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-zhizhangfangxiang-zongxiang"></use>
+                    </svg>   
+                    <a href="#">Inquiry List</a>
+                </li>
+                <!-- <li>!</li>
+                <li></li> -->
+            </ul>
+        </div>
+        <!-- 头部 -->
+
+        <!-- <hr id="hx"> -->
+
+    <!-- 搜索 -->
+        <div id="sousuo">
+            <div id="sousuo-ico">
+                <img class="sousuo-tu" src="img/30d95ac589.png" alt="图片">
+            </div>
+            <div id="sousuo-ss">
+                <form class="navbar-form navbar-left" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control"  placeholder="搜索">
+                        <button type="button" class="btn btn-default">
+                            <svg class="icon1" aria-hidden="true">
+                                <use xlink:href="#icon-xingtaiduICON_sousuo--"></use>
+                            </svg>
+                        </button>
+                    </div>
+                </form>
+                <div style="clear: both;"></div>
+            </div>
+            <div id="sousuo-dh">
+                <div class="sousuo-dh-dian">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-dianhua1"></use>
+                    </svg>
+                    +86 13602824180
+                </div>
+                <div class="sousuo-dh-e">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-dianziyoujianemail65"></use>
+                    </svg>
+                    info@sz-oden.com
+                </div>
+            </div>
+            <div style="clear: both;"></div>
+        </div>
+ <!-- 搜索 -->
+
+
+        
+    </div>
+     <!-- 导航栏 -->
+    <div id="doahanlan">
+        <div class="doahanlan-top">
+            <div class="doahanlan-1 doahanlan-xia">
+                <a href="index.html" class="doahanlan-top-a">
+                    Home
+                </a>
+            </div>
+            <div class="doahanlan-2 doahanlan-xia">
+                <a href="Products.html" class="doahanlan-top-a">
+                    Products
+                    <a href="#" class="xiala">
+                        <div >
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-arrow-right-copy"></use>
+                            </svg>
+                                Smart lock cylinder
+                        </div>
+                    </a>
+
+                    <a href="#" class="xiala">
+                        <div >
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-arrow-right-copy"></use>
+                            </svg>
+                                Smart padlock
+                        </div>
+                    </a>
+                    <a href="#" class="xiala">
+                        <div >
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-arrow-right-copy"></use>
+                            </svg>
+                                Smart door lock
+                        </div>
+                    </a>
+                    <a href="#" class="xiala">
+                        <div >
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-arrow-right-copy"></use>
+                            </svg>
+                                Smart glass door lock
+                        </div>
+                    </a>
+                    <a href="#" class="xiala">
+                        <div >
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-arrow-right-copy"></use>
+                            </svg>
+                                Digital  door viewer
+                        </div>
+                    </a>
+                    <a href="#" class="xiala">
+                        <div >
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-arrow-right-copy"></use>
+                            </svg>
+                                Apartment hotel smart
+                        </div>
+                    </a>
+                    <a href="#" class="xiala">
+                        <div >
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-arrow-right-copy"></use>
+                            </svg>
+                                Smart Aluminum sliding
+                        </div>
+                    </a>
+                    <a href="#" class="xiala">
+                        <div >
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-arrow-right-copy"></use>
+                            </svg>
+                                Smart lock hardware
+                        </div>
+                    </a>
+                </a>
+            </div>
+            <div class="doahanlan-3 doahanlan-xia">
+                <a href="Download.html" class="doahanlan-top-a">
+                    Download
+                    <a href="#" class="xiala">
+                            <div >
+                                
+                                    <svg class="icon" aria-hidden="true">
+                                        <use xlink:href="#icon-arrow-right-copy"></use>
+                                    </svg>
+                                    Download
+                                
+                            </div>
+                        </a>
+                   
+                </a>
+            </div>
+            <div class="doahanlan-4 doahanlan-xia">
+                <a href="About Us.html" class="doahanlan-top-a">
+                    About Us
+                    <a href="#" class="xiala">
+                            <div >
+                                    <svg class="icon" aria-hidden="true">
+                                        <use xlink:href="#icon-arrow-right-copy"></use>
+                                    </svg> Company Profile
+                            </div>
+                        </a>    
+                </a>
+            </div>
+            <div class="doahanlan-5 doahanlan-xia">
+                <a href="Contact us.html" class="doahanlan-top-a">
+                    Contact Us
+                    <a href="#" class="xiala">
+                            <div >
+                                    <svg class="icon" aria-hidden="true">
+                                        <use xlink:href="#icon-arrow-right-copy"></use>
+                                    </svg> Contact us
+                            </div>
+                        </a> 
+                </a>
+            </div>
+            <div class="doahanlan-6 doahanlan-xia">
+                <a href="Alibaba website.html" class="doahanlan-top-a">
+                    Alibaba Website
+                       <a href="#" class="xiala">
+                        <div >
+                                <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-arrow-right-copy"></use>
+                                </svg> Alibaba Website 
+                        </div>
+                    </a> 
+                    
+                    </div>
+                    
+                    
+                </a>
+            </div>
+        </div>
+        <!-- 上面是导航栏 -->
+        <div style="clear: both;"></div>
+        <!-- 正文 -->
+        <div id="zhenwen">
+            <div class="zhenwen1">
+                <div class="zhenwen-1">
+                   <div class="zhenwen-3" >Contact Us</div> 
+                    <div class="zhenwen-4">
+                        <a href="#">
+
+                        
+                        <div class="zhenwen-5">
+                            <div class="zhenwen-6">
+                                <span  class="zhenwen-6-span">
+                                    <svg class="icon2" aria-hidden="true">
+                                        <use xlink:href="#icon-duanjiantou"></use>
+                                    </svg>
+                                </span>
+                                
+                            </div>
+                            <div>
+                                <span>Contact Us</span>
+                            </div>
+                            <div style="clear: both;"></div>
+                        </div>
+                    </a>
+                    </div>
+                </div>
+                <div class="zhenwen-2">
+                    <div class="zhenwen-2-1">
+                        <div class="zhenwen-2-2">Contact Us</div>
+                        <div class="zhenwen-2-3">
+                            <span class="shouzhi">
+                                <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-home"></use>
+                                </svg> 
+                            </span>  
+                            <svg class="icon2" aria-hidden="true">
+                                    <use xlink:href="#icon-arrow-right1"></use>
+                                </svg>  
+                            <a href="#">Contact Us</a> 
+                            <svg class="icon2" aria-hidden="true">
+                                <use xlink:href="#icon-arrow-right1"></use>
+                            </svg>  
+                            <a href="#">Contact Us </a> 
+                        </div>
+                    </div>
+                    <div style="clear: both;"></div>
+                    <div>
+                        <div class="zhenwen-3-0">SHENZHEN ODEN TECHNOLOGY CO., LTD.</div>
+                        <div class="zhenwen-3-1">
+                            <span class="zhenwen-3-1-span">Sales Manager: Vicky Zhang</span> <br>
+                            (Mobile): +86-13602824180 <br>
+                            (WhatsApp/WeChat): +86-13602824180 <br>
+                            (Skype):vicky_969csl <br>
+                            of professional and technical personnel with high quality production and R & D. The main products include fingerprint, <br>
+                            password, RFID card, and other types of intelligent locks. 
+                        </div>
+                        <div class="zhenwen-3-1 xian">
+                            Website:www.sz-oden.com <br>
+                            Alibaba website:https://sz-oden.en.alibaba.com
+                        </div>
+                        <div class="zhenwen-3-1 xian1">
+                            <span class="zhenwen-3-1-span">Head office address:</span> <br>
+                            505 Floor Block 63,MaJiaLong Industrial Zone, NanTou Street, NanShan District, Shenzhen, GuangDong, <br>
+                            China <br>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 上面的是正文 -->
+
+        <!-- 下面的是脚步 -->
+        <div id="foot">
+            <div id="foot-1" >
+                <span>ODEN © All Rights Reserved.    POWERED BY UEESHOP</span> 
+            </div>
+           
+        </div>
+    <script>
+        $(document).ready(function(){
+            $('.doahanlan-xia').hover(function(){
+                $(this).find('.xiala').css('display', 'block');
+            }, function(){
+                $(this).find('.xiala').css('display', 'none');
+            });
+        });
+    </script>
+</body>
+</html>
