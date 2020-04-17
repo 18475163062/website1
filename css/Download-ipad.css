@@ -106,8 +106,8 @@ body.navbar {
         height: 600px;
         background: #fff;
         /* border: 1px solid #000; */
-        
-        box-shadow: 1px 1px 15px 1px rgb(70, 69, 69);
+        border-top: 1px solid rgba(0, 0, 0, .2);
+        /* box-shadow: 1px 1px 15px 1px rgb(70, 69, 69); */
         /* opacity: 0.2; */
     }
     .zhenwen1{
@@ -150,6 +150,7 @@ body.navbar {
 
     }
     .zhenwen-2-3{
+        display: none;
         float: left;
         text-align: right;
         /* font-weight: bold; */
@@ -175,6 +176,9 @@ body.navbar {
         width: 100%;
           line-height: 45px;
 
+    }
+    .zhenwen-3-1-pc{
+        display: none;
     }
     .zhenwen-3-2{
         float: left;
@@ -291,8 +295,8 @@ body.navbar {
         height: 600px;
         background: #fff;
         /* border: 1px solid #000; */
-        
-        box-shadow: 1px 1px 15px 1px rgb(70, 69, 69);
+        border-top: 1px solid rgba(0, 0, 0, .2);
+        /* box-shadow: 1px 1px 15px 1px rgb(70, 69, 69); */
         /* opacity: 0.2; */
     }
     .zhenwen1{
@@ -360,6 +364,9 @@ body.navbar {
         width: 100%;
           line-height: 45px;
 
+    }
+    .zhenwen-3-1-pc{
+        display: none;
     }
     .zhenwen-3-2{
         float: left;

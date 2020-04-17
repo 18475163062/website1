@@ -112,8 +112,8 @@ body.navbar {
         height: 600px;
         background: #fff;
         /* border: 1px solid #000; */
-        
-        box-shadow: 1px 1px 15px 1px rgb(70, 69, 69);
+        border-top: 1px solid rgba(0, 0, 0, .2);
+        /* box-shadow: 0px 0px 0px 0px rgb(70, 69, 69); */
         /* opacity: 0.2; */
     }
     .zhenwen1{
@@ -263,18 +263,18 @@ body.navbar {
     /* 正文 */
     #zhenwen{
         /* position: relative; */
-        overflow:hidden;
+        /* overflow:hidden; */
         margin: auto;
         width: 1100px;
         height: 600px;
         background: #fff;
         /* border: 1px solid #000; */
-        
-        box-shadow: 1px 1px 15px 1px rgb(70, 69, 69);
+        border-top: 1px solid rgba(0, 0, 0, .2);
+        /* box-shadow: 1px 1px 1px 1px rgb(70, 69, 69); */
         /* opacity: 0.2; */
     }
     .zhenwen1{
-        position: relative;
+        /* position: relative; */
         /* background: #59B210; */
         width: 97%;
         /* padding: 15px; */
@@ -362,31 +362,6 @@ body.navbar {
         width: 100%;
         color: #555572;
         font-size: 16px;
-    }
-    .zhenwen-5{
-        margin:auto; 
-        /* background: red; */
-        /* text-align: center; */
-        /* height: 45px; */
-        /* line-height: 45px; */
-        width: 90%;
-        color: #555572;
-        font-size: 16px;
-    }
-    .zhenwen-6{
-        margin-top: 10px;
-        margin-right: 5px;
-        float: left;
-        border-radius: 50%;
-        width: 20px;
-        height: 20px;
-        /* line-height: 20px; */
-        background: #555;
-    }
-    .zhenwen-6-span{
-        position: relative;
-        top: -11px;
-        left: 2px;
     }
     /* 脚部 */
     #foot{

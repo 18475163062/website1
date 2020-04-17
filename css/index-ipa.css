@@ -50,27 +50,30 @@
         /* background: red; */
         padding: 10px;
     }
-    .tuwen-2-span{
-        /* background: red; */
-        
+    
+    .tuwen-2-span1-gai{
+        display: none;
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
+    }
+    .tuwen-2-span{
+        /* background: red; */
+        
+        height: 40px;
+        width: 100%;;
+        white-space:normal;
         /* width: 100px; */
     }
     .tuwen-2-span a{
         /* width: 100px; */
-        font-size: 14px;
+        font-size: 12px;
         color: #333;
-        font-family: Arial;
-        font-weight: bold;
         
     }
     .tuwen-2-span a:hover{
-        font-size: 14px;
+        font-size: 12px;
         color: #333;
-        font-family: Arial;
-        font-weight: bold;
     }
     .tuwen-2-span1{
         font-size: 12px;
@@ -78,6 +81,7 @@
 
     }
     .tuwen-2-button{
+        display: none;
         text-align: right;
         /* background:red; */
         padding-top: 10px;
@@ -272,7 +276,7 @@
         background: #fff;
         /* border: 1px solid #000; */
         
-        box-shadow: 1px 1px 15px 1px rgb(70, 69, 69);
+        /* box-shadow: 1px 1px 15px 1px rgb(70, 69, 69); */
         /* opacity: 0.2; */
     }
     #foot{
@@ -338,32 +342,39 @@
         float: left;
         
     }
+    .tuwen-2-span1-gai{
+        display: none;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
     .tuwen-2{
         margin: auto;
         /* background: red; */
         padding: 10px;
     }
     .tuwen-2-span{
+        /* font-size: 12px; */
         /* background: red; */
-        
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
+        height: 40px;
+        width: 100%;;
+        white-space:normal;
+        /* overflow: hidden; */
         /* width: 100px; */
     }
     .tuwen-2-span a{
         /* width: 100px; */
-        font-size: 14px;
+        font-size: 12px;
         color: #333;
         font-family: Arial;
-        font-weight: bold;
+        /* font-weight: bold; */
         
     }
     .tuwen-2-span a:hover{
-        font-size: 14px;
+        font-size: 12px;
         color: #333;
         font-family: Arial;
-        font-weight: bold;
+        /* font-weight: bold; */
     }
     .tuwen-2-span1{
         font-size: 12px;
@@ -371,6 +382,7 @@
 
     }
     .tuwen-2-button{
+        display: none;
         text-align: right;
         /* background:red; */
         padding-top: 10px;
@@ -565,7 +577,7 @@
         background: #fff;
         /* border: 1px solid #000; */
         
-        box-shadow: 1px 1px 15px 1px rgb(70, 69, 69);
+        /* box-shadow: 1px 1px 15px 1px rgb(70, 69, 69); */
         /* opacity: 0.2; */
     }
     #foot{

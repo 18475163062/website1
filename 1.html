@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type="text/css">
+
+        .a ul li ul{
+        display: none;/*将 二级 菜单隐藏起来*/
+        }
+        .a ul li:hover ul{
+        display: block;/*当鼠标移动到一级标签后，ul即二级菜单显示出来*/
+        }
+        .l1 .l2{
+            display: none;
+        }
+        .l1:hover .l2{
+            display: block;
+        }
+            </style>
+</head>
+<body>
+<!-- 
+    <div class="a">
+        <ul>
+            <li>
+            <a href="#">一级</a>
+                <ul class="d">
+                    <li><a href="#">二级</a></li>
+                    <li><a href="#">二级</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div> -->
+    <div class="l1">
+        <a href="#">1</a>
+        <div class="l2">
+            <a href="#2">2</a>
+        </div>
+    </div>
+    </body>
+</html>

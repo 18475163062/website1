@@ -468,12 +468,13 @@ body.navbar {
         background: #F5F5F5;
         /* text-align: center; */
         height: 40px;
-        line-height: 40px;
+        line-height: 38px;
         width: 100%;
         color: #555572;
         font-size: 16px;
     }
     .zhenwen-5{
+        background: url(../img/tubiao1.png) 1px 10px no-repeat;
         margin:auto; 
         /* background: red; */
         /* text-align: center; */
@@ -483,20 +484,20 @@ body.navbar {
         color: #555572;
         font-size: 16px;
     }
-    .zhenwen-6{
-        margin-top: 10px;
-        margin-right: 5px;
-        float: left;
-        border-radius: 50%;
-        width: 20px;
-        height: 20px;
-        /* line-height: 20px; */
-        background: #555;
+    .zhenwen-4 a:hover{
+        text-decoration: none;
     }
-    .zhenwen-6-span{
-        position: relative;
-        top: -11px;
-        left: 2px;
+    .zhenwen-5:hover{
+        background: url(../img/tubiao-j.png) 1px 10px no-repeat;
+        margin:auto; 
+        /* background: red; */
+        /* text-align: center; */
+        /* height: 45px; */
+        /* line-height: 45px; */
+        width: 90%;
+        color: #13e647;
+        font-size: 16px;
+        text-decoration: none;
     }
     /* 脚部 */
     #foot{
